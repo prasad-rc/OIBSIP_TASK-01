@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeMaster - Your Reliable Trading Platform</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            color: #333;
+            background-color: #a9c3ea;
+            line-height: 1.6;
+            font-family: Arial, sans-serif;
+        }
+        
+        
+        .container {
+            width: 100%;
+            padding: 20px;
+        }
+
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #111;
+            color: #fff;
+        }
+
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ffab00;
+        }
+
+        header .nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(to bottom right, #111, #333);
+            color: white;
+            background-image: url('hero-background.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #e5e5e5;
+        }
+
+        .hero .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 35px;
+            background-color: #ffab00;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero .btn:hover {
+            background-color: #e09800;
+        }
+
+        
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background: #f8f9fa;
+            text-align: center;
+        }
+
+        .features .feature {
+            width: 30%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .features .feature img {
+            max-width: 50px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .features .feature h3 {
+            font-size: 1.4rem;
+            margin: 15px 0;
+        }
+
+        
+        .chart-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: #ffffff;
+        }
+
+        .chart-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .chart-section .chart {
+            width: 80%;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .trust-badges {
+            text-align: center;
+            padding: 40px 20px;
+            background: #111;
+            color: white;
+        }
+
+        .trust-badges h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .trust-badges .badges {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .trust-badges .badge {
+            text-align: center;
+            width: 20%;
+        }
+
+        .trust-badges .badge img {
+            max-width: 60px;
+            margin-bottom: 10px;
+        }
+
+        
+        footer {
+            padding: 20px;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">TradeMaster</div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Support</a>
+            <a href="#">Login</a>
+        </div>
+    </header>
+
+   
+    <section class="hero">
+        <h1>Trade Confidently with TradeMaster</h1>
+        <p>The most reliable and secure platform for your trading needs. Real-time data and insights at your fingertips.</p>
+        <a href="#" class="btn">Start Trading Now</a>
+    </section>
+
+    
+    <section class="features">
+        <div class="feature">
+            <img src="./images/real_time.jpg" alt="Real-Time Data Icon">
+            <h3>Real-Time Data</h3>
+            <p>Get instant access to live market data and analysis for accurate trading decisions.</p>
+        </div>
+        <div class="feature">
+            <img src="./images/secur.jpg" alt="Secure Transactions Icon">
+            <h3>Secure Transactions</h3>
+            <p>TradeMaster prioritizes security with advanced encryption to protect your assets.</p>
+        </div>
+        <div class="feature">
+            <img src="./images/cc.jpg" alt="24/7 Support Icon">
+            <h3>24/7 Customer Support</h3>
+            <p>Our expert team is available around the clock to assist you at every step.</p>
+        </div>
+    </section>
+
+    
+    <section class="chart-section">
+        <h2>Market Trends & Insights</h2>
+        <div class="chart">
+            
+            <p>[Live Trading Chart Placeholder]</p>
+        </div>
+    </section>
+
+    
+    <section class="trust-badges">
+        <h2>Trusted by Thousands of Traders Worldwide</h2>
+        <div class="badges">
+            <div class="badge">
+                <img src="award_icon.png" alt="Award Icon">
+                <p>Award-Winning Platform</p>
+            </div>
+            <div class="badge">
+                <img src="encryption_icon.png" alt="Encryption Icon">
+                <p>Bank-Grade Encryption</p>
+            </div>
+            <div class="badge">
+                <img src="reliability_icon.png" alt="Reliability Icon">
+                <p>99.99% Uptime</p>
+            </div>
+            <div class="badge">
+                <img src="global_icon.png" alt="Global Icon">
+                <p>Global Coverage</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 TradeMaster. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
